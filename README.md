@@ -1,4 +1,5 @@
 ❌ React Tic-Tac-Toe ⭕
+
 A sleek, functional Tic-Tac-Toe game built with React and Vite. This project demonstrates state management using hooks, effect synchronization, and conditional rendering.
 
 🎮 Features
