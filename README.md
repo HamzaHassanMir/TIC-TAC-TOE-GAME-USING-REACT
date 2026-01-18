@@ -1,0 +1,58 @@
+❌ React Tic-Tac-Toe ⭕
+A sleek, functional Tic-Tac-Toe game built with React and Vite. This project demonstrates state management using hooks, effect synchronization, and conditional rendering.
+
+🎮 Features
+Dynamic Game State: Real-time tracking of player turns (X and O).
+
+Win/Draw Logic: Automatically detects winning patterns across rows, columns, and diagonals, or identifies a draw if the board is full.
+
+Persistent Status: A dynamic header that updates to show the next player, the winner, or a draw message.
+
+Game Reset: A "Restart" feature that clears the board and resets the game state.
+
+Custom Styling: Dark-themed UI with a responsive grid and a Google Font integration ("Poppins").
+
+🛠️ Technical Details
+State Management
+The game logic utilizes React's core hooks:
+
+useState: Manages the board array (squares), current turn (isXTurn), and the status message (record).
+
+useEffect: Monitors changes in the board to calculate the game status immediately after a move.
+
+Component Architecture
+Game Component: The main container holding all logic and the grid layout.
+
+Square Component: A reusable functional sub-component that renders individual buttons for the grid.
+
+📂 Project Structure
+Game.jsx: Contains the game logic, winning algorithm, and the Square component.
+
+style.css: Custom CSS containing the flexbox layout, dark-mode colors (#223541), and button styling.
+
+🎨 Styling Preview
+Background: Dark Slate (#223541)
+
+Text Color: Red (for X/O) and White (for headers)
+
+Reset Button: Greenyellow with rounded corners
+
+🚀 Installation & Setup
+
+1. Clone the project:
+
+```
+git clone <https://github.com/HamzaHassanMir/TIC-TAC-TOE-GAME-USING-REACT>
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+
+3. Launch the development server:
+
+```
+npm run dev
+```
